@@ -1,0 +1,47 @@
+﻿Build started 3/23/2017 12:14:37 PM.
+     1>Project "C:\Users\v-fuz.FAREAST\Documents\Visual Studio 2013\Projects\LibFM\LibFM\LibFM.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\libfm\libfm.cpp src\libfm\tools\convert.cpp src\libfm\tools\transpose.cpp
+         transpose.cpp
+         convert.cpp
+         libfm.cpp
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\util\util.h(42): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\util\util.h(43): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\util\random.h(41): warning C4273: 'erf' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(486) : see previous definition of 'erf'
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\libfm\src\relation.h(106): warning C4244: '=' : conversion from 'uint64' to 'uint', possible loss of data
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\libfm\src\relation.h(115): warning C4244: '=' : conversion from 'uint64' to 'uint', possible loss of data
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\libfm\src\data.h(138): warning C4244: '=' : conversion from 'uint64' to 'uint', possible loss of data
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\libfm\src\data.h(150): warning C4244: '=' : conversion from 'uint64' to 'uint', possible loss of data
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\libfm\src\data.h(230): warning C4244: 'initializing' : conversion from 'uint64' to 'unsigned int', possible loss of data
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\libfm\src\data.h(313): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\libfm\src\fm_learn_mcmc.h(724): warning C4244: '+=' : conversion from 'double' to 'uint', possible loss of data
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\libfm\src\fm_learn_mcmc.h(843): warning C4244: '+=' : conversion from 'double' to 'uint', possible loss of data
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\libfm\tools\convert_zhfzhr.h(89): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\libfm\libfm.cpp(101): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\libfm\libfm.cpp(302): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\libfm\libfm.cpp(303): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\util\fmatrix.h(176): warning C4244: 'initializing' : conversion from 'double' to 'uint64', possible loss of data
+                 c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\util\fmatrix.h(153) : while compiling class template member function 'LargeSparseMatrixHD<DATA_FLOAT>::LargeSparseMatrixHD(std::string,uint64)'
+                 c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\libfm\src\relation.h(104) : see reference to function template instantiation 'LargeSparseMatrixHD<DATA_FLOAT>::LargeSparseMatrixHD(std::string,uint64)' being compiled
+                 c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\libfm\src\relation.h(104) : see reference to class template instantiation 'LargeSparseMatrixHD<DATA_FLOAT>' being compiled
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\util\fmatrix.h(180): warning C4244: '=' : conversion from 'uint64' to 'uint', possible loss of data
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\util\fmatrix.h(188): warning C4244: 'argument' : conversion from 'uint64' to 'uint', possible loss of data
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\util\fmatrix.h(226): warning C4244: 'argument' : conversion from 'uint64' to 'unsigned int', possible loss of data
+                 c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\util\fmatrix.h(226) : while compiling class template member function 'sparse_row<FM_FLOAT> &LargeSparseMatrixHD<DATA_FLOAT>::getRow(void)'
+         Generating Code...
+     1>c:\users\v-fuz.fareast\documents\visual studio 2013\projects\libfm\libfm\src\libfm\tools\convert_zhfzhr.h(237): warning C4715: 'convert_zhfzh' : not all control paths return a value
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\LibFM.res" LibFM.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\v-fuz.FAREAST\Documents\Visual Studio 2013\Projects\LibFM\Debug\LibFM.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\v-fuz.FAREAST\Documents\Visual Studio 2013\Projects\LibFM\Debug\LibFM.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\v-fuz.FAREAST\Documents\Visual Studio 2013\Projects\LibFM\Debug\LibFM.lib" /MACHINE:X86 Debug\LibFM.res
+         Debug\libfm.obj
+         Debug\convert.obj
+         Debug\transpose.obj
+            Creating library C:\Users\v-fuz.FAREAST\Documents\Visual Studio 2013\Projects\LibFM\Debug\LibFM.lib and object C:\Users\v-fuz.FAREAST\Documents\Visual Studio 2013\Projects\LibFM\Debug\LibFM.exp
+         LibFM.vcxproj -> C:\Users\v-fuz.FAREAST\Documents\Visual Studio 2013\Projects\LibFM\Debug\LibFM.exe
+     1>Done Building Project "C:\Users\v-fuz.FAREAST\Documents\Visual Studio 2013\Projects\LibFM\LibFM\LibFM.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.60
